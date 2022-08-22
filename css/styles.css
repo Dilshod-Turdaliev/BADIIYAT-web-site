@@ -1,0 +1,47 @@
+/* Site header css starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  background-color: #191919;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-logo {
+  margin-left: 81.32px;
+  margin-top: 22px;
+}
+.site-ul-nav {
+  margin-top: 28.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 43.5px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 144.4%;
+}
+.site-img-man {
+  margin-top: 15.14px;
+  margin-right: 66.03px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 11.25px;
+}
+/* Site header css finish */
